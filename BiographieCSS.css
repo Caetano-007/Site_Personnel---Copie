@@ -1,0 +1,70 @@
+/* Zone principale sous le menu */
+.conteneur-page {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Carte blanche encadrée pour le texte */
+.carte-contenu {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-top: 5px solid #ff5e62;
+}
+
+/* Style des titres dans la biographie */
+.carte-contenu h2 {
+    color: #1e272e;
+    font-size: 22px;
+    margin-top: 0;
+    border-bottom: 2px solid #eef2f5;
+    padding-bottom: 8px;
+}
+
+.carte-contenu h3 {
+    color: #ff5e62;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+/* Style du texte et des puces */
+.carte-contenu p, .carte-contenu li {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+.carte-contenu ul {
+    margin-left: 20px;
+}
+
+/* Style et cadrage de l'image de karting */
+.zone-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.zone-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+}
+
+/* Lien de retour vers l'accueil */
+.alignement-droite {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.lien-retour-texte {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lien-retour-texte:hover {
+    text-decoration: underline;
+}

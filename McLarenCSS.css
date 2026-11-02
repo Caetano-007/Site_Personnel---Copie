@@ -1,0 +1,80 @@
+/* FOND DE LA PAGE McLAREN */
+body {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #ff8000 100%);
+    background-attachment: fixed;
+}
+
+/* Zone sous la barre de navigation */
+.conteneur-page {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Carte avec la bordure supérieure orange McLaren */
+.carte-mclaren {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    border-top: 5px solid #ff8000;
+}
+
+/* Titre principal */
+.carte-mclaren h2 {
+    color: #1e272e;
+    font-size: 22px;
+    margin-top: 0;
+    border-bottom: 2px solid #fff3e6;
+    padding-bottom: 8px;
+}
+
+/* Sous-titres orange McLaren */
+.carte-mclaren h3 {
+    color: #ff8000;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+/* Texte et puces */
+.carte-mclaren p, .carte-mclaren li {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+.carte-mclaren ul {
+    margin-left: 20px;
+}
+
+/* Cadrage et taille ajustée des photos McLaren */
+.zone-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.zone-image img {
+    max-width: 65%;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ff8000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Lien de retour */
+.alignement-droite {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.lien-retour-texte {
+    color: #ff8000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lien-retour-texte:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,80 @@
+/* FOND DE LA PAGE FERRARI (Dégradé sombre et rouge vif) */
+body {
+    background: linear-gradient(135deg, #111111 0%, #1f0505 50%, #dc0000 100%);
+    background-attachment: fixed;
+}
+
+/* Zone sous la barre de navigation */
+.conteneur-page {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Carte avec la bordure supérieure rouge Ferrari */
+.carte-ferrari {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    border-top: 5px solid #dc0000;
+}
+
+/* Titre principal */
+.carte-ferrari h2 {
+    color: #1e272e;
+    font-size: 22px;
+    margin-top: 0;
+    border-bottom: 2px solid #ffe6e6;
+    padding-bottom: 8px;
+}
+
+/* Sous-titres rouge Ferrari */
+.carte-ferrari h3 {
+    color: #dc0000;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+/* Texte et puces */
+.carte-ferrari p, .carte-ferrari li {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+.carte-ferrari ul {
+    margin-left: 20px;
+}
+
+/* Cadrage et taille des photos Ferrari (uniformisé) */
+.zone-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.zone-image img {
+    max-width: 65%;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #dc0000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Lien de retour */
+.alignement-droite {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.lien-retour-texte {
+    color: #dc0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lien-retour-texte:hover {
+    text-decoration: underline;
+}

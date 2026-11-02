@@ -1,0 +1,134 @@
+/* Configuration de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f5;
+    color: #2c3e50;
+}
+
+/* En-tête coloré de la page */
+header {
+    background: linear-gradient(90deg, #ff5e62, #ff9966);
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* Barre de navigation principale */
+nav {
+    background-color: #1e272e;
+    padding: 12px 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Enlève les puces */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none; /* Enlève le soulignement */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Indication de la page active */
+nav ul li a.lien-actif {
+    border-bottom: 2px solid #ff5e62;
+}
+
+nav ul li a.bouton-retour-bienvenue {
+    background-color: #ff5e62;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+nav ul li a.bouton-retour-bienvenue:hover {
+    background-color: #e0484c;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Conteneur principal avec les deux cartes côte à côte */
+.principal-divise {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+/* Style des cartes des deux colonnes */
+.colonne {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+/* Bordures de couleur au sommet des cartes */
+.carte-thematique {
+    border-top: 5px solid #ff5e62;
+}
+
+.carte-cv {
+    border-top: 5px solid #3498db;
+}
+
+.colonne h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #1e272e;
+}
+
+/* Style des listes de liens */
+.liste-liens {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.liste-liens li {
+    margin-bottom: 10px;
+}
+
+.liste-liens li a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.liste-liens li a:hover {
+    color: #ff5e62;
+    text-decoration: underline;
+}

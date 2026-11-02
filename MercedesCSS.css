@@ -1,0 +1,80 @@
+/* FOND DE LA PAGE MERCEDES */
+body {
+    background: linear-gradient(135deg, #0f1416 0%, #1c2529 50%, #00a19c 100%);
+    background-attachment: fixed;
+}
+
+/* Zone sous la barre de navigation */
+.conteneur-page {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Carte avec la bordure supérieure turquoise Petronas */
+.carte-mercedes {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    border-top: 5px solid #00a19c;
+}
+
+/* Titre principal */
+.carte-mercedes h2 {
+    color: #1e272e;
+    font-size: 22px;
+    margin-top: 0;
+    border-bottom: 2px solid #e0f7f6;
+    padding-bottom: 8px;
+}
+
+/* Sous-titres turquoise */
+.carte-mercedes h3 {
+    color: #00a19c;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+/* Texte et puces */
+.carte-mercedes p, .carte-mercedes li {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+.carte-mercedes ul {
+    margin-left: 20px;
+}
+
+/* Cadrage et taille des photos Mercedes (uniformisé comme McLaren) */
+.zone-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.zone-image img {
+    max-width: 65%;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #00a19c;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Lien de retour */
+.alignement-droite {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.lien-retour-texte {
+    color: #00a19c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lien-retour-texte:hover {
+    text-decoration: underline;
+}

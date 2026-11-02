@@ -1,0 +1,80 @@
+/* FOND DE LA PAGE GALERIE (Dégradé sombre et élégant) */
+body {
+    background: linear-gradient(135deg, #111111 0%, #1a1a2e 50%, #16213e 100%);
+    background-attachment: fixed;
+}
+
+/* Zone sous la barre de navigation */
+.conteneur-page {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Carte avec la bordure supérieure élégante */
+.carte-galerie {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    border-top: 5px solid #4a69bd;
+}
+
+/* Titre principal */
+.carte-galerie h2 {
+    color: #1e272e;
+    font-size: 22px;
+    margin-top: 0;
+    border-bottom: 2px solid #f1f2f6;
+    padding-bottom: 8px;
+}
+
+/* Texte d'introduction */
+.carte-galerie > p {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+/* Conteneur pour chaque image de la galerie */
+.element-galerie {
+    text-align: center;
+    margin: 30px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f1f2f6;
+}
+
+.element-galerie img {
+    max-width: 65%;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #dcdde1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Légende sous l'image */
+.legende-image {
+    font-style: italic;
+    color: #718093;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Lien de retour */
+.alignement-droite {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.lien-retour-texte {
+    color: #4a69bd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lien-retour-texte:hover {
+    text-decoration: underline;
+}
